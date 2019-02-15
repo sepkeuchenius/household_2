@@ -35,3 +35,11 @@ font-family: 'Hind Siliguri', sans-serif;
   padding: 0;
 
 }
+@media screen and (max-width: 1000px){
+  #title{
+    font-size: 80px !important;
+  }
+  #title3{
+    font-size: 50px;
+  }
+}
