@@ -1,0 +1,37 @@
+#title{
+  text-align: left;
+  margin-left: 40px;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+body{
+  margin:0;
+  padding: 0;
+  background: #404b69;
+}
+#title1{
+  color:white;
+}
+#title2{
+color: #da0463;
+}
+#title3{
+  font-size: 30px;
+  vertical-align: middle;
+  color: 283149;
+}
+#subtitle{
+  text-align: center;
+font-family: 'Hind Siliguri', sans-serif;
+
+}
+#content{
+  background: #da0463;
+  color: white;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+
+}
