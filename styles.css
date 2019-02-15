@@ -10,9 +10,51 @@ body{
   margin:0;
   padding: 0;
   background: #404b69;
+  font-family: 'Poiret One', sans-serif;
+
+}
+#days{
+  text-align: center;
+  font-stretch: expanded;
+  margin-top: 40px;
+}
+#days span{
+  /* width: 14%; */
+  margin-left: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+  font-size: 35px;
 }
 #title1{
   color:white;
+}
+#dayscontent{
+
+  /* border-radius: 2px; */
+  /* padding: 20px; */
+  height: 70%;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  /* font-family: 'Open Sans', serif; */
+  /* font-style:italic; */
+  font-weight: lighter;
+  color: #282c35;
+}
+.item{
+    background: white;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 3px;
+    display: inline-table;
+    margin: 10px
+}
+#dayscontent h2{
+  /* color: white; */
+  margin-left: 10px;
 }
 #title2{
 color: #da0463;
@@ -20,11 +62,11 @@ color: #da0463;
 #title3{
   font-size: 30px;
   vertical-align: middle;
-  color: 283149;
+  color: #6d7fae;
 }
 #subtitle{
   text-align: center;
-font-family: 'Hind Siliguri', sans-serif;
+/* font-family: 'Hind Siliguri', sans-serif; */
 
 }
 #content{
@@ -34,6 +76,15 @@ font-family: 'Hind Siliguri', sans-serif;
   margin: 0;
   padding: 0;
 
+}
+.active{
+  color: #da0463;
+}
+.show{
+  display: inline;
+}
+.hide{
+  display: none;
 }
 @media screen and (max-width: 1000px){
   #title{

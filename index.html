@@ -1,15 +1,47 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
   <link rel="icon" href="h1.png" type="image/gif" sizes="20x20">
   <link href='styles.css' rel='stylesheet'>
   <title>household</title>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
   <body>
     <h1 id='title'><span id='title1'>house</span><span id='title2'>hold</span> <span id='title3'>&middot keep your house neat</span></h1>
     <div id='content'>
-    <!-- <h2 id='subtitle'>Get a hold of your house</h2> -->
+      <h2 id='days'>
+        <span id='a_mo' class='active'>monday</span>
+        <span id='a_tu' class='inactive'>tuesday</span>
+        <span id='a_we'  class='inactive'>wednessday</span>
+        <span id='a_th' class='inactive'>thursday</span>
+        <span id='a_fr' class='inactive'>friday</span>
+        <span id='a_sa' class='inactive'>saturday</span>
+        <span id='a_su' class='inactive'>sunday</span>
+
+      </h2>
+      <div id='dayscontent'>
+      <div id='mo' class='show'>
+        <div class='item'>
+        <h1>Shit to do</h1>
+        <h2>Garbage, bathroom, cook, fucking groceries</h2>
+        </div>
+        <div class='item'>
+        <h1>Dinner</h1>
+        <h2>One-pot pasta bolognese</h2>
+        <h2>Anthon is the cook</h2>
+        </div>
+        <div class='item'>
+        <h1>Groceries</h1>
+        <h2>Milk, eggs, fruit, fuck
+        </div>
+        </div>
+      <div id='tu' class='hide'>tuesday</div>
+      <div id='we' class='hide'>wednessday</div>
+      <div id='th' class='hide'>thursday</div>
+      <div id='fr' class='hide'>friday</div>
+      <div id='sa' class='hide'>saturday</div>
+      <div id='su' class='hide'>sunday</div>
+      </div>
     </div>
     <script src='script.js'></script>
     </body>
